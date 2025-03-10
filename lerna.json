@@ -1,7 +1,6 @@
 {
   "version": "3.7.0",
   "npmClient": "yarn",
-  "useWorkspaces": true,
   "useNx": false,
   "changelog": {
     "repo": "facebook/docusaurus",
@@ -16,5 +15,6 @@
       "pr: maintenance": ":wrench: Maintenance"
     },
     "cacheDir": ".changelog"
-  }
+  },
+  "packages": ["packages/*"] // Add this line for specifying where your packages are located
 }
